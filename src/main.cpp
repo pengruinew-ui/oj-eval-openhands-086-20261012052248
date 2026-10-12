@@ -91,7 +91,7 @@ int main() {
         vector<int> result;
         inorderTraversal(tree, 1, result);  // Start from root (node 1)
         
-        for (int j = 0; j < result.size(); j++) {
+        for (size_t j = 0; j < result.size(); j++) {
             cout << result[j];
             if (j < result.size() - 1) cout << " ";
         }
